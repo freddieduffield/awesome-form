@@ -8,10 +8,10 @@ class RegisterForm extends Component {
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name</label>
-          <Field name="name" commponent="input" type="text" />
+          <Field name="name" component="input" type="text" />
         </div>
         <div>
-          <label>Preferred Formating</label>
+          <label>Preferred Formatting</label>
           <Field name="preference" component="select">
             <option />
             <option value="tabs">Tabs</option>
@@ -19,7 +19,7 @@ class RegisterForm extends Component {
           </Field>
         </div>
         <div>
-          <label>Sign up for newsletter?</label>
+          <label>Sign up to newsletter?</label>
           <Field name="newsletter" component="input" type="checkbox" />
         </div>
         <button type="submit">Submit</button>
